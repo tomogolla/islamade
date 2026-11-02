@@ -1,0 +1,93 @@
+{
+  "_help": "Made automatically from the catalog spreadsheet by tools/build-data.js. Don't edit this file by hand: change the spreadsheet (or tools/collection-copy.json) and run `node tools/build-data.js` again.",
+  "collections": [
+    {
+      "id": "cozy-basics",
+      "name": "cozy basics",
+      "tagline": "soft, simple pieces for everyday",
+      "description": "Easy, comforting crochet pieces made for everyday life.",
+      "accent": "pink",
+      "shape": "sprig",
+      "featured": true,
+      "cover": "",
+      "items": 0
+    },
+    {
+      "id": "little-ones",
+      "name": "little ones",
+      "tagline": "tiny pals with big personality",
+      "description": "Small, sweet crochet pieces that pop up when you least expect them.",
+      "accent": "mint",
+      "shape": "fan",
+      "featured": false,
+      "cover": "",
+      "items": 1
+    },
+    {
+      "id": "bags-and-pouches",
+      "name": "bags and pouches",
+      "tagline": "carry your day, handmade",
+      "description": "Crochet bags and pouches made to hold your everyday things, with plenty of personality.",
+      "accent": "lavender",
+      "shape": "arch",
+      "featured": false,
+      "cover": "assets/images/products/bunny-pouch-1.jpeg",
+      "items": 4
+    },
+    {
+      "id": "home-and-decor",
+      "name": "home and decor",
+      "tagline": "a little handmade softness for your space",
+      "description": "Crochet plants, blooms and leaves to brighten shelves, windows and corners, with no watering needed.",
+      "accent": "butter",
+      "shape": "leaf",
+      "featured": false,
+      "cover": "assets/images/products/wisteria-1.jpeg",
+      "items": 3
+    },
+    {
+      "id": "tiny-treasures",
+      "name": "tiny treasures",
+      "tagline": "small crochet pieces to clip, tuck and collect",
+      "description": "Little handmade charms and keepsakes to hang, clip and collect.",
+      "accent": "periwinkle",
+      "shape": "circle",
+      "featured": false,
+      "cover": "assets/images/products/miffy-head-charm-1.jpeg",
+      "items": 7
+    },
+    {
+      "id": "at-the-sea",
+      "name": "at the sea",
+      "tagline": "friends from the shore and the sea",
+      "description": "A jellyfish, an octopus and one very leggy frog, all handmade and waiting by the water.",
+      "accent": "mint",
+      "shape": "palm",
+      "featured": false,
+      "cover": "assets/images/products/jellyfish-1.jpeg",
+      "items": 3
+    },
+    {
+      "id": "sweet-tooth",
+      "name": "sweet tooth",
+      "tagline": "crochet sweets that never melt",
+      "description": "Marshmallows, mini cakes and other sweet things, handmade with all the charm and none of the sugar.",
+      "accent": "pink",
+      "shape": "starburst",
+      "featured": false,
+      "cover": "",
+      "items": 2
+    },
+    {
+      "id": "hats-and-bows",
+      "name": "hats and bows",
+      "tagline": "crochet for your head and hair",
+      "description": "Handmade crochet bows, bandanas and turbans to wear with a little extra style.",
+      "accent": "lavender",
+      "shape": "fan",
+      "featured": false,
+      "cover": "assets/images/products/mesh-bow-1.jpeg",
+      "items": 3
+    }
+  ]
+}

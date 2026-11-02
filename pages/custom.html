@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>custom crochet · islamade</title>
+  <meta name="description" content="Request a custom crochet piece from islamade: your colors, your size, your idea. Send your request in a minute via WhatsApp or email.">
+
+  <!-- TODO: once the site is live, change og:image and og:url to full URLs -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="islamade">
+  <meta property="og:title" content="custom crochet · islamade">
+  <meta property="og:description" content="Dreaming of something one-of-a-kind? Let's make it together.">
+  <meta property="og:image" content="../assets/og-image.png">
+  <meta property="og:url" content="custom.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#FFFBF4">
+
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chonburi&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Yellowtail&display=swap">
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <script src="../js/config.js" defer></script>
+  <script src="../js/shapes.js" defer></script>
+  <script src="../js/layout.js" defer></script>
+  <script src="../js/catalog.js" defer></script>
+  <script src="../js/custom.js" defer></script>
+</head>
+
+<body data-root="../" data-page="custom">
+  <a class="skip-link" href="#main">skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main" class="container">
+    <header class="page-intro">
+      <h1>custom crochet</h1>
+      <p>Dreaming of something one-of-a-kind? A bag in your favorite colors, a blanket for a new baby, a gift with a story behind it? Let's make it together.</p>
+    </header>
+
+    <!-- How it works: edit the three steps here -->
+    <section aria-labelledby="how-title">
+      <h2 id="how-title" class="sr-only">how custom orders work</h2>
+      <ol class="steps">
+        <li class="step accent-pink">
+          <svg class="shape" aria-hidden="true"><use href="#shape-starburst"></use></svg>
+          <span class="step__number" aria-hidden="true">1</span>
+          <h3>share your idea</h3>
+          <p>Fill in the form below with what you'd like, your colors, size and any photos that inspire you.</p>
+        </li>
+        <li class="step accent-lavender">
+          <svg class="shape" aria-hidden="true"><use href="#shape-sprig"></use></svg>
+          <span class="step__number" aria-hidden="true">2</span>
+          <h3>we plan it together</h3>
+          <p>I'll message you back to talk through the details, yarn choices, price and timing.</p>
+        </li>
+        <li class="step accent-butter">
+          <svg class="shape" aria-hidden="true"><use href="#shape-circle"></use></svg>
+          <span class="step__number" aria-hidden="true">3</span>
+          <h3>I make it by hand</h3>
+          <p>Stitch by stitch, your piece comes to life. I'll send progress photos along the way.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section form-card" aria-labelledby="form-title">
+      <h2 id="form-title">request a custom piece</h2>
+      <p>Fields marked “required” are all I need to get started. Submitting opens WhatsApp with your request ready to send.</p>
+
+      <form id="custom-form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">your name <span class="hint">required</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="inspired">inspired by collection</label>
+            <!-- Options are added by js/custom.js from data/collections.json -->
+            <select id="inspired" name="inspired">
+              <option value="">not sure yet</option>
+            </select>
+          </div>
+
+          <div class="field field--wide">
+            <label for="idea">what would you like? <span class="hint">required: tell me about the piece, who it's for, any details you love</span></label>
+            <textarea id="idea" name="idea" required></textarea>
+          </div>
+
+          <div class="field">
+            <label for="colors">colors <span class="hint">e.g. sage and cream, or “surprise me”</span></label>
+            <input id="colors" name="colors" type="text">
+          </div>
+
+          <div class="field">
+            <label for="size">size <span class="hint">e.g. adult medium, 0–3 months, 30 × 40 cm</span></label>
+            <input id="size" name="size" type="text">
+          </div>
+
+          <div class="field">
+            <label for="deadline">deadline <span class="hint">when do you need it by?</span></label>
+            <input id="deadline" name="deadline" type="date">
+          </div>
+
+          <div class="field">
+            <label for="reference">reference image link <span class="hint">a Pinterest or Instagram link, for example</span></label>
+            <input id="reference" name="reference" type="url" placeholder="https://" inputmode="url">
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn" type="submit"><svg aria-hidden="true"><use href="#shape-whatsapp"></use></svg>send via whatsapp</button>
+          <button class="btn btn--light" type="button" id="send-email"><svg aria-hidden="true"><use href="#shape-mail"></use></svg>send by email instead</button>
+        </div>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

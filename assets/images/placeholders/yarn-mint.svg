@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- TODO: placeholder image. Replace with a real photo (see README.md). -->
+  <rect width="600" height="600" fill="#E5F4E3"/>
+  <circle cx="300" cy="270" r="150" fill="#A9D5A3"/>
+  <g fill="none" stroke="#FFFBF4" stroke-width="9" stroke-linecap="round" opacity="0.9">
+    <path d="M196 170C262 214 312 306 300 414"/>
+    <path d="M240 134C322 196 376 290 378 398"/>
+    <path d="M318 122C384 170 432 236 448 304"/>
+    <path d="M152 262C220 292 300 290 392 218"/>
+    <path d="M168 330C246 352 330 336 420 268"/>
+  </g>
+  <path d="M432 350C488 392 520 452 470 486C424 516 392 470 432 458" fill="none" stroke="#A9D5A3" stroke-width="9" stroke-linecap="round"/>
+  <path d="M128 488L238 392" stroke="#CAADFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M238 392c10-9 22 4 12 12" fill="none" stroke="#CAADFF" stroke-width="8" stroke-linecap="round"/>
+  <text x="300" y="528" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#2E2250">photo coming soon</text>
+</svg>

@@ -1,0 +1,53 @@
+{
+  "_help": "Website copy for each collection. Anything written here WINS over the spreadsheet's Collections sheet when you run `node tools/build-data.js`. To use the spreadsheet's text again, delete that line here. accent = periwinkle, lavender, pink, butter or mint. shape = fan, sprig, circle, palm, starburst, arch or leaf.",
+
+  "cozy-basics": {
+    "tagline": "soft, simple pieces for everyday",
+    "description": "Easy, comforting crochet pieces made for everyday life.",
+    "accent": "pink",
+    "shape": "sprig"
+  },
+  "little-ones": {
+    "name": "little ones",
+    "tagline": "tiny pals with big personality",
+    "description": "Small, sweet crochet pieces that pop up when you least expect them.",
+    "accent": "mint",
+    "shape": "fan"
+  },
+  "bags-and-pouches": {
+    "tagline": "carry your day, handmade",
+    "description": "Crochet bags and pouches made to hold your everyday things, with plenty of personality.",
+    "accent": "lavender",
+    "shape": "arch"
+  },
+  "home-and-decor": {
+    "tagline": "a little handmade softness for your space",
+    "description": "Crochet plants, blooms and leaves to brighten shelves, windows and corners, with no watering needed.",
+    "accent": "butter",
+    "shape": "leaf"
+  },
+  "tiny-treasures": {
+    "tagline": "small crochet pieces to clip, tuck and collect",
+    "description": "Little handmade charms and keepsakes to hang, clip and collect.",
+    "accent": "periwinkle",
+    "shape": "circle"
+  },
+  "at-the-sea": {
+    "tagline": "friends from the shore and the sea",
+    "description": "A jellyfish, an octopus and one very leggy frog, all handmade and waiting by the water.",
+    "accent": "mint",
+    "shape": "palm"
+  },
+  "sweet-tooth": {
+    "tagline": "crochet sweets that never melt",
+    "description": "Marshmallows, mini cakes and other sweet things, handmade with all the charm and none of the sugar.",
+    "accent": "pink",
+    "shape": "starburst"
+  },
+  "hats-and-bows": {
+    "tagline": "crochet for your head and hair",
+    "description": "Handmade crochet bows, bandanas and turbans to wear with a little extra style.",
+    "accent": "lavender",
+    "shape": "fan"
+  }
+}

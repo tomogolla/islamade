@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- TODO: placeholder for the studio photo. Replace with a real photo (see README.md). -->
+  <rect width="600" height="600" fill="#FFC2E2"/>
+  <circle cx="225" cy="290" r="95" fill="#8E72F7"/>
+  <circle cx="375" cy="280" r="105" fill="#A9D5A3"/>
+  <circle cx="300" cy="235" r="88" fill="#F4EEA9"/>
+  <g fill="none" stroke="#FFFBF4" stroke-width="7" stroke-linecap="round" opacity="0.9">
+    <path d="M160 250c40 20 70 60 70 120M190 215c40 25 70 70 75 120"/>
+    <path d="M320 200c40 30 70 80 70 150M370 185c30 30 55 70 60 120"/>
+  </g>
+  <g fill="none" stroke="#DDCD5E" stroke-width="7" stroke-linecap="round">
+    <path d="M240 180c40 20 70 55 80 100M265 160c35 20 60 50 70 85"/>
+  </g>
+  <path d="M120 320h360l-36 190H156z" fill="#DDCD5E"/>
+  <g stroke="#FFFBF4" stroke-width="8" stroke-linecap="round" opacity="0.8">
+    <path d="M128 360h344M136 405h328M144 450h312"/>
+  </g>
+  <path d="M120 320h360" stroke="#2E2250" stroke-width="10" stroke-linecap="round"/>
+  <path d="M470 330C520 370 540 430 500 470" fill="none" stroke="#A9D5A3" stroke-width="8" stroke-linecap="round"/>
+</svg>
