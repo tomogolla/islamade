@@ -21,7 +21,7 @@
       "shape": "fan",
       "featured": false,
       "cover": "",
-      "items": 1
+      "items": 2
     },
     {
       "id": "bags-and-pouches",
@@ -32,7 +32,7 @@
       "shape": "arch",
       "featured": false,
       "cover": "assets/images/products/bunny-pouch-1.jpeg",
-      "items": 4
+      "items": 5
     },
     {
       "id": "home-and-decor",
@@ -54,7 +54,7 @@
       "shape": "circle",
       "featured": false,
       "cover": "assets/images/products/miffy-head-charm-1.jpeg",
-      "items": 7
+      "items": 9
     },
     {
       "id": "at-the-sea",
@@ -65,7 +65,7 @@
       "shape": "palm",
       "featured": false,
       "cover": "assets/images/products/jellyfish-1.jpeg",
-      "items": 3
+      "items": 4
     },
     {
       "id": "sweet-tooth",

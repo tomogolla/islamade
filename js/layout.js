@@ -44,9 +44,10 @@ function siteLink(name) {
 
 /* Social links shown in the footer */
 const SOCIAL_LINKS = [
-  { name: "instagram", label: "instagram" },
-  { name: "youtube", label: "youtube" },
-  { name: "whatsapp", label: "whatsapp" },
+  { name: "instagram", label: `instagram ${SITE.instagramHandle}` },
+  { name: "youtube", label: `youtube ${SITE.youtubeHandle}` },
+  { name: "whatsapp", label: `whatsapp ${SITE.whatsappDisplay}` },
+  { name: "email", label: SITE.email, icon: "mail" },
 ];
 
 function renderHeader() {
@@ -114,12 +115,15 @@ function renderFooter() {
   if (!slot) return;
 
   const socials = SOCIAL_LINKS.map(
-    (link) => `
+    (link) => {
+      const opensNewTab = link.name !== "email";
+      return `
       <li>
-        <a href="${siteLink(link.name)}" target="_blank" rel="noopener noreferrer">
-          ${shapeSVG(link.name, "")}${link.label}<span class="sr-only"> (opens in a new tab)</span>
+        <a href="${siteLink(link.name)}"${opensNewTab ? ' target="_blank" rel="noopener noreferrer"' : ""}>
+          ${shapeSVG(link.icon || link.name, "")}${link.label}${opensNewTab ? '<span class="sr-only"> (opens in a new tab)</span>' : ""}
         </a>
-      </li>`
+      </li>`;
+    }
   ).join("");
 
   slot.outerHTML = `

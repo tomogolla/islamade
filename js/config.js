@@ -9,18 +9,17 @@ const SITE = {
   name: "islamade",
   tagline: "handmade crochet, made with love",
 
-  // TODO: replace with your Instagram profile URL, e.g. "https://www.instagram.com/yourname/"
-  instagram: "https://www.instagram.com/",
+  instagramHandle: "@isla_crochets",
+  instagram: "https://www.instagram.com/isla_crochets/",
 
-  // TODO: replace with your YouTube channel URL, e.g. "https://www.youtube.com/@yourname"
-  youtube: "https://www.youtube.com/",
+  youtubeHandle: "@isla_crochets",
+  youtube: "https://www.youtube.com/@isla_crochets",
 
-  // TODO: replace with your WhatsApp number in international format,
-  // digits only — no "+", spaces or dashes. Example: "254712345678"
-  whatsappNumber: "15551234567",
+  // International format: digits only, with no "+", spaces or dashes.
+  whatsappNumber: "254798695345",
+  whatsappDisplay: "+254 798 695345",
 
-  // TODO: replace with your email address (used as a fallback for custom orders)
-  email: "hello@example.com",
+  email: "hello@islamade.com",
 
   // Shown in front of every price, e.g. "KSh 1,800"
   currency: "KSh",

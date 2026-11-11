@@ -106,10 +106,10 @@ Then run `node tools/build-data.js`. The home page's tall "collections" tile use
 Everything lives in **`js/config.js`**:
 
 ```js
-instagram: "https://www.instagram.com/yourname/",
-youtube: "https://www.youtube.com/@yourname",
-whatsappNumber: "254712345678",   // digits only, with country code, no + or spaces
-email: "you@example.com",
+instagram: "https://www.instagram.com/isla_crotchets/",
+youtube: "https://www.youtube.com/@islacrotchet",
+whatsappNumber: "254798695345",   // digits only, with country code, no + or spaces
+email: "tomogolla.tm@gmail.com",
 currency: "KSh",                  // prices show as "KSh 1,800"
 ```
 

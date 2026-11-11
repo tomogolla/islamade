@@ -303,10 +303,10 @@
       "materials": "",
       "stock": 5,
       "images": [
-        "assets/images/products/mesh-bandana-1.jpg",
+        "assets/images/products/mesh-bandana-1.jpeg",
         "assets/images/products/mesh-bandana-2.jpeg",
         "assets/images/products/mesh-bandana-3.jpeg",
-        "assets/images/products/mesh-bandana-4.jpeg"
+        "assets/images/products/mesh-bandana-4.jpg"
       ],
       "alt": "Handmade crochet mesh bandana"
     },
@@ -421,6 +421,101 @@
         "assets/images/products/pumpkin-charm-1.jpg"
       ],
       "alt": "Handmade crochet pumpkin charm"
+    },
+    {
+      "id": "bat-applique",
+      "name": "bat applique",
+      "price": 150,
+      "collection": "tiny-treasures",
+      "shortDescription": "A handmade orange bat charm",
+      "description": "A handmade orange bat charm",
+      "status": "available",
+      "new": true,
+      "featured": false,
+      "colors": [],
+      "size": "",
+      "materials": "",
+      "stock": 5,
+      "images": [
+        "assets/images/products/bat-applique-1.jpg"
+      ],
+      "alt": "bat applique"
+    },
+    {
+      "id": "mushroom-charm",
+      "name": "mushroom charm",
+      "price": 200,
+      "collection": "tiny-treasures",
+      "shortDescription": "",
+      "description": "",
+      "status": "available",
+      "new": false,
+      "featured": false,
+      "colors": [],
+      "size": "",
+      "materials": "",
+      "stock": null,
+      "images": [
+        "assets/images/products/mushroom-charm-1.jpeg"
+      ],
+      "alt": "mushroom charm"
+    },
+    {
+      "id": "sea-shell-pouch",
+      "name": "sea shell pouch",
+      "price": 1500,
+      "collection": "bags-and-pouches",
+      "shortDescription": "",
+      "description": "",
+      "status": "available",
+      "new": false,
+      "featured": false,
+      "colors": [],
+      "size": "",
+      "materials": "",
+      "stock": null,
+      "images": [
+        "assets/images/products/sea-shell-pouch-1.jpeg"
+      ],
+      "alt": "sea shell pouch"
+    },
+    {
+      "id": "green-octopus",
+      "name": "green octopus",
+      "price": 450,
+      "collection": "at-the-sea",
+      "shortDescription": "",
+      "description": "",
+      "status": "available",
+      "new": false,
+      "featured": false,
+      "colors": [],
+      "size": "",
+      "materials": "",
+      "stock": null,
+      "images": [
+        "assets/images/products/green-octopus-1.jpeg"
+      ],
+      "alt": "green octopus"
+    },
+    {
+      "id": "funky-frog",
+      "name": "funky frog",
+      "price": 300,
+      "collection": "little-ones",
+      "shortDescription": "",
+      "description": "",
+      "status": "available",
+      "new": false,
+      "featured": false,
+      "colors": [],
+      "size": "",
+      "materials": "",
+      "stock": null,
+      "images": [
+        "assets/images/products/funky-frog-1.jpeg"
+      ],
+      "alt": "funky frog"
     }
   ]
 }
