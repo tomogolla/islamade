@@ -14,10 +14,8 @@
       "colors": [],
       "size": "",
       "materials": "",
-      "stock": 5, 
-      "images": [
-        "assets\\images\\products\\sea-shell-pouch-1.jpeg"
-      ],
+      "stock": 5,
+      "images": [],
       "alt": "Handmade crochet shell bag"
     },
     {
@@ -252,8 +250,7 @@
       "stock": 5,
       "images": [
         "assets/images/products/coin-pouches-1.jpeg",
-        "assets/images/products/coin-pouches-2.jpeg",
-        "assets/images/products/coin-pouches-model.jpeg"
+        "assets/images/products/coin-pouches-2.jpeg"
       ],
       "alt": "Handmade crochet coin pouches"
     },
@@ -346,9 +343,7 @@
       "stock": 5,
       "images": [
         "assets/images/products/turban-1.jpeg",
-        "assets/images/products/turban-5.jpeg",
-        "assets/images/products/turban-model.jpeg"
-
+        "assets/images/products/turban-5.jpeg"
       ],
       "alt": "Handmade crochet turban"
     },
@@ -466,7 +461,6 @@
       ],
       "alt": "mushroom charm"
     },
-  
     {
       "id": "green-octopus",
       "name": "green octopus",

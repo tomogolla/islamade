@@ -20,7 +20,7 @@
       "accent": "mint",
       "shape": "fan",
       "featured": false,
-      "cover": "",
+      "cover": "assets/images/products/funky-frog-1.jpeg",
       "items": 2
     },
     {
@@ -32,7 +32,7 @@
       "shape": "arch",
       "featured": false,
       "cover": "assets/images/products/bunny-pouch-1.jpeg",
-      "items": 5
+      "items": 4
     },
     {
       "id": "home-and-decor",
@@ -53,7 +53,7 @@
       "accent": "periwinkle",
       "shape": "circle",
       "featured": false,
-      "cover": "assets/images/products/miffy-head-charm-1.jpeg",
+      "cover": "assets/images/collections/tiny-treasures-cover.jpg",
       "items": 9
     },
     {
