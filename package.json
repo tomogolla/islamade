@@ -13,12 +13,12 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "npm run build && wrangler dev",
+    "preview": "wrangler dev",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "catalog": "node tools/build-data.js",
     "test": "node --test test/catalog.test.js",
     "cf:types": "wrangler types",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "^8.0.3",
