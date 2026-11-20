@@ -1,5 +1,7 @@
 import productsJson from '../../../data/products.json';
 import collectionsJson from '../../../data/collections.json';
+import { asset } from '$app/paths';
+import type { AssetPath } from '$app/types';
 
 export type ProductStatus = 'available' | 'made to order' | 'sold out';
 export type Accent = 'periwinkle' | 'lavender' | 'pink' | 'butter' | 'mint';
@@ -23,4 +25,14 @@ export const productsIn = (id: string) => products.filter((product) => product.c
 export const collectionOf = (product: Product) => collectionMap.get(product.collection);
 export const productStatus = (product: Product): ProductStatus => product.stock === 0 ? 'sold out' : product.status;
 export const isLowStock = (product: Product) => productStatus(product) !== 'sold out' && product.stock !== null && product.stock > 0 && product.stock <= 3;
-export const assetUrl = (path?: string) => path ? `/${path.replaceAll('\\', '/').replace(/^\//, '').split('/').map(encodeURIComponent).join('/')}` : '/assets/images/placeholders/yarn-lavender.svg';
+export const assetUrl = (path?: string) => {
+  const publicPath = (path ?? 'assets/images/placeholders/yarn-lavender.svg')
+    .replaceAll('\\', '/')
+    .replace(/^\/+/, '')
+    .replace(/^assets\//, '')
+    .split('/')
+    .map(encodeURIComponent)
+    .join('/');
+
+  return asset(publicPath as AssetPath);
+};

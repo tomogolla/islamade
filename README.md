@@ -1,6 +1,6 @@
 # Islamade storefront
 
-Islamade is a SvelteKit 3 storefront for a handmade crochet studio in Nairobi. The application uses Svelte 5, TypeScript, standard CSS and the official Cloudflare adapter.
+Islamade is a SvelteKit 3 storefront for a handmade crochet studio. The application uses Svelte 5, TypeScript, standard CSS and the official Cloudflare adapter.
 
 ## Development
 
