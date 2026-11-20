@@ -42,7 +42,7 @@
   <div class="hero-art">
     <div class="hero-blob">
       <img
-        src="/assets/images/products/coin-pouches-model.jpeg"
+        src={assetUrl("assets/images/products/coin-pouches-model.jpeg")}
         alt="Model holding handmade crochet coin pouches"
       />
     </div>
@@ -103,7 +103,7 @@
 <section class="section shell story-grid">
   <div class="organic-photo">
     <img
-      src="/assets/images/products/turban-model.jpeg"
+      src={assetUrl("assets/images/products/turban-model.jpeg")}
       alt="Model wearing a handmade crochet turban"
     />
   </div>
