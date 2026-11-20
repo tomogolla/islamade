@@ -1,0 +1,2 @@
+import { error } from '@sveltejs/kit'; import { collectionMap, productsIn, visibleCollections } from '#lib/data/catalog';
+export function load({params}:{params:{slug:string}}){const collection=collectionMap.get(params.slug);const products=productsIn(params.slug);if(!collection||!products.length)error(404,'Collection not found');return {collection,products,related:visibleCollections.filter(c=>c.id!==params.slug).slice(0,3)}}

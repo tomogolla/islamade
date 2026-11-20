@@ -1,0 +1,7 @@
+:root {
+  --cream: #fbf7f1; --navy: #0d1723; --yellow: #ffe373; --coral: #f4a99c;
+  --sky: #a8c9f5; --lilac: #c9b3ed; --white: #fff; --muted: #606970;
+  --border: 1.5px solid var(--navy); --radius: 12px; --pill: 999px;
+  --shadow: 5px 5px 0 var(--navy); --shell: 1140px;
+  --font: 'DM Sans', system-ui, sans-serif; --script: 'Yellowtail', cursive;
+}

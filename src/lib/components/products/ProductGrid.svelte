@@ -1,0 +1,2 @@
+<script lang="ts">import type { Product } from '#lib/data/catalog'; import { collectionOf } from '#lib/data/catalog'; import ProductCard from './ProductCard.svelte'; export let products: Product[]; export let onOpen: (product: Product, trigger: HTMLElement) => void;</script>
+{#if products.length}<div class="product-grid">{#each products as product (product.id)}<ProductCard {product} collection={collectionOf(product)} {onOpen}/>{/each}</div>{:else}<div class="notice" role="status"><h2>No pieces found</h2><p>Try another search or collection.</p></div>{/if}
