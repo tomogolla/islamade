@@ -1,7 +1,7 @@
 export const site = {
   name: 'islamade',
   tagline: 'handmade crochet, made with love',
-  description: 'Playful crochet pieces, stitched slowly by hand in Nairobi.',
+  description: 'Playful handmade crochet pieces.',
   origin: 'https://islamade.com',
   currency: 'KSh',
   email: 'hello@islamade.com',

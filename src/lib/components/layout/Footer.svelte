@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { site } from '#lib/data/config';
-  import SocialIcon from '#lib/components/ui/SocialIcon.svelte';
+  import { site } from "#lib/data/config";
+  import SocialIcon from "#lib/components/ui/SocialIcon.svelte";
 </script>
 
 <footer class="footer">
@@ -8,21 +8,67 @@
     <div class="footer-intro">
       <a class="wordmark" href="/">islamade</a>
       <p class="footer-copy">{site.description}</p>
-      <p class="footer-copy">{site.whatsappDisplay}<br>{site.email}</p>
+      <p class="footer-copy">{site.whatsappDisplay}<br />{site.email}</p>
       <div class="social-row">
-        <a class="instagram" href={site.instagram} target="_blank" rel="noreferrer" aria-label="Instagram"><SocialIcon name="instagram" /></a>
-        <a class="youtube" href={site.youtube} target="_blank" rel="noreferrer" aria-label="YouTube"><SocialIcon name="youtube" /></a>
-        <a class="whatsapp" href={`https://wa.me/${site.whatsappNumber}`} target="_blank" rel="noreferrer" aria-label="WhatsApp"><SocialIcon name="whatsapp" /></a>
+        <a
+          class="instagram"
+          href={site.instagram}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Instagram"><SocialIcon name="instagram" /></a
+         >
+        <a
+          class="youtube"
+          href={site.youtube}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="YouTube"><SocialIcon name="youtube" /></a
+        ><a
+          class="whatsapp"
+          href={`https://wa.me/${site.whatsappNumber}`}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="WhatsApp"><SocialIcon name="whatsapp" /></a
+        >
       </div>
     </div>
-    <div><h2>Shop</h2><a href="/shop">All pieces</a><a href="/collections">Collections</a><a href="/custom">Custom orders</a></div>
-    <div><h2>Studio</h2><a href="/about">Our story</a><a href={`mailto:${site.email}`}>Contact</a><a href="/about#care">Care guide</a></div>
-    <div class="newsletter"><h2>Little notes from the studio</h2><p class="footer-copy">A newsletter is planned, but sign-up is not connected yet.</p><div class="newsletter-placeholder" aria-label="Newsletter coming soon">Newsletter sign-up coming soon</div></div>
+    <div>
+      <h2>Shop</h2>
+      <a href="/shop">All pieces</a><a href="/collections">Collections</a><a
+        href="/custom">Custom orders</a
+      >
+    </div>
+    <div>
+      <h2>Studio</h2>
+      <a href="/about">Our story</a><a href={`mailto:${site.email}`}>Contact</a
+      ><a href="/about#care">Care guide</a>
+    </div>
+    <div class="newsletter">
+      <h2 class="newsletter-title">Little notes from the studio</h2>
+
+      <div class="newsletter-placeholder" aria-label="Newsletter coming soon">
+        Newsletter sign-up coming soon
+      </div>
+    </div>
   </div>
-  <div class="legal shell"><span>© {new Date().getFullYear()} islamade</span><span>Made with yarn, care &amp; patience.</span></div>
+  <div class="legal shell">
+    <span>© {new Date().getFullYear()} islamade</span><span
+      >Made with yarn, care &amp; patience.</span
+    >
+  </div>
 </footer>
 
 <style>
+  .newsletter-title {
+    margin-bottom: 0.5rem;
+  }
+  .newsletter-placeholder {
+    background-color: var(--color-neutral-100);
+    color: var(--color-neutral-500);
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+  }
   .social-row a {
     margin: 0 !important;
     color: white !important;
@@ -41,4 +87,5 @@
   }
   .social-row .youtube { background: #ff0033; }
   .social-row .whatsapp { background: #25d366; }
+
 </style>
