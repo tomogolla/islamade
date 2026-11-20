@@ -76,13 +76,14 @@ The project follows Cloudflare's SvelteKit 3 Workers configuration:
 - Adapter: `@sveltejs/adapter-cloudflare` 8
 - Worker entry point: `.svelte-kit/cloudflare/_worker.js`
 - Static assets: `.svelte-kit/cloudflare`
+- Wrangler build command: `npm run build` (generates `_worker.js` before deploy)
 - Compatibility date: `2026-11-19`
 - Workers Logs and traces are enabled in `wrangler.jsonc`
 
 For the existing GitHub-connected Cloudflare Workers project, set:
 
-- Build command: `npm run build`
-- Deploy command: `npm run deploy`
+- Build command: leave blank (Wrangler runs the configured build command)
+- Deploy command: `npm run deploy` or `npx wrangler deploy`
 - Root directory: repository root
 - Node version: 22.17 or newer
 

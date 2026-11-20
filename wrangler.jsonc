@@ -3,6 +3,9 @@
   "name": "islamade",
   "main": ".svelte-kit/cloudflare/_worker.js",
   "compatibility_date": "2026-11-19",
+  "build": {
+    "command": "npm run build"
+  },
   "assets": {
     "directory": ".svelte-kit/cloudflare",
     "binding": "ASSETS"
