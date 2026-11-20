@@ -103,8 +103,8 @@
 <section class="section shell story-grid">
   <div class="organic-photo">
     <img
-      src={assetUrl("assets/images/products/turban-model.jpeg")}
-      alt="Model wearing a handmade crochet turban"
+      src={assetUrl("assets/images/products/bubble-pouch.jpeg")}
+      alt="Model wearing a handmade crochet bubble pouch crossbody bag"
     />
   </div>
   <div>

@@ -7,7 +7,7 @@
 
 <section class="section shell story-grid">
   <div class="organic-photo">
-    <img src={assetUrl('assets/images/products/turban-model.jpeg')} alt="A model wearing an Islamade crochet turban"/>
+    <img src={assetUrl('static/assets/images/products/bubble-pouch.jpeg')} alt="A model wearing an Islamade crochet bubble pouch crossbody bag"/>
   </div>
   <div class="story-panel">
     <p class="eyebrow">The maker</p>
